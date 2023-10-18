@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 const jwt = require("jsonwebtoken");
-app.listen(port, "192.168.0.106", () => {
+app.listen(port, () => {
   console.log("Server is running on port 8000");
 });
 
